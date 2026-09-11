@@ -1,33 +1,20 @@
 ---
 layout: compress
 ---
-
-<link rel="stylesheet" href="{{ page.css }}">
-
-{% include base_path %}
-
 <!doctype html>
 <html lang="{{ site.locale | slice: 0,2 }}" class="no-js">
   <head>
     {% include head.html %}
     {% include head/custom.html %}
+    {% if page.css %}<link rel="stylesheet" href="{{ page.css | relative_url }}">{% endif %}
   </head>
-
   <body>
-
-    {% include browser-upgrade.html %}
+    <a class="skip-link" href="#main">Skip to content</a>
     {% include masthead.html %}
-
     {{ content }}
-
     <div class="page__footer">
-      <footer>
-        {% include footer/custom.html %}
-        {% include footer.html %}
-      </footer>
+      <footer>{% include footer.html %}</footer>
     </div>
-
     {% include scripts.html %}
-
   </body>
 </html>

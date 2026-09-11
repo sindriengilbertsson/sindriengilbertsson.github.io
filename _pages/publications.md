@@ -1,250 +1,54 @@
 ---
-permalink: /research/ 
-title:    
+layout: single
+title: "Research"
+permalink: /research/
 author_profile: true
 ---
 
-<h2 style="margin-top: 0; font-weight: bold; text-align: left;">Publications</h2>
-<div style="padding-left: 0;"> 
-    <h3 style="margin-top: 7.5px; margin-bottom: 5px; font-weight: normal;">
-      <a href="https://stnavdeev.github.io/Avdeev_International_Students_Paper.pdf">University as a Melting Pot: Long-term Effects of Internationalization</a>
-  </h3>
-<p style="margin-bottom: 0;"><i><b>American Economic Journal: Applied Economics</b> (Forthcoming)</i></p>
-<ul style="padding-left: 20px; margin-top: 5px; margin-bottom: 0; font-size: 14px;">
-    <li>
-      Abstract: <a href="#" id="toggleAbstractButton7" onclick="toggleVisibility('abstractContent7','toggleAbstractButton7'); return false;" style="text-decoration: underline; color: black; margin-left: 0;">Show</a>
-      <div id="abstractContent7" style="display: none; margin-top: 5px; margin-left: 0;">
-        <p align="justify" style="margin-bottom: 0;">
-          This paper provides the first evidence on the impact of exposure to international students on the long-term outcomes of native students. I combine unique survey and administrative data from the Netherlands covering one million students across three decades and employ an across-cohort design. I find that exposure to international students leads natives to <i>(i)</i> form social ties with non-natives, <i>(ii)</i> hold more positive attitudes towards migration and learning about other cultures, and <i>(iii)</i> seek opportunities abroad. Notably, I find precisely estimated zero effects on employment, income, entrepreneurship, and the share of international co-workers up to 25 years after university entry.
-        </p>
-      </div>
-    </li>
-  </ul>
-  <div style="margin-top: 5px; padding-left: 0; font-size: 14px;">
-    <ul style="padding-left: 20px; margin-top: 0; margin-bottom: 0;">
-      <li>Awards: <a href="https://www.espe.org/news" style="color: black;">Best Paper Award</a>, Annual Conference of the European Society for Population Economics; <a href="https://www.ifo.de/en/cesifo/event/2025-05-12/cesifo-ifo-junior-workshop-economics-education-2025" style="color: black;">Best Paper Award</a>, CESifo/ifo Junior Workshop on the Economics of Education</li>
-      <li>Grant: <a href="https://www.eaie.org/resource/driving-the-future-of-international-education.html" style="color: black;">Research Grant</a>, Principal Investigator, European Association for International Education</li>
-                <li>
-      Podcast:
-      <a href="https://open.spotify.com/episode/3Ggv5E3bDaglCWW7hkjZBC?si=04c2c0f0e99d4404" style="color: black;">Spotify</a>, <a href="https://podcasts.apple.com/nl/podcast/papers-to-podcast/id1811001985?i=1000737908318" style="color: black;">Apple</a>
-    </li>
-      <li>Media coverage: <a href="https://www.trouw.nl/onderwijs/contact-met-internationals-maakt-de-nederlandse-student-toleranter-blijkt-uit-onderzoek~b18fe7c4/" style="color: black;">Trouw</a>, <a href="https://esb.nu/internationale-studenten/" style="color: black;">ESB</a>, <a href="https://www.folia.nl/en/wetenschap/170295/how-dutch-students-are-influenced-by-their-international-peers" style="color: black;">Folia</a>, <a href="https://dutchreview.com/news/international-students-benefit-dutch-students-higher-education-study/" style="color: black;">DutchReview</a>, <a href="https://www.linkedin.com/posts/university-of-amsterdam_uva-sciencesunday-internationals-activity-7428679455939858433-ORro?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAADq5LVcBwfrsSuqBcISFYr5ftJDVaUZ75Uk" style="color: black;">Science Sunday</a>, <a href="https://www.eaie.org/resource/next-generation-research-on-internationalisation-part-1.html" style="color: black;">EAIE</a>, <a href="https://www.thepolicyscientist.com/post/does-exposure-to-international-students-shape-the-long-term-outcomes-of-students" style="color: black;">The Policy Scientist</a></li>
-    </ul>
-  </div>
-  <h3 style="margin-top: 15px; margin-bottom: 5px; font-weight: normal;">
-       <a href="https://stnavdeev.github.io/Conflict_and_Disputes.pdf">The Impact of International Conflict on Cross-Border Commercial Dispute Resolution</a>
-        </h3>
-  <p style="margin-bottom: 0;"><i><b>Journal of Public Economics</b></i></p>
-    <ul style="padding-left: 20px; margin-top: 5px; margin-bottom: 0; font-size: 14px;">
-    <li>
-      Abstract: <a href="#" id="toggleAbstractWPButton_conflict" onclick="toggleVisibility('abstractWPContent_conflict','toggleAbstractWPButton_conflict'); return false;" style="text-decoration: underline; color: black; margin-left: 0;">Show</a>
-      <div id="abstractWPContent_conflict" style="display: none; margin-top: 5px; margin-left: 0;">
-        <p align="justify" style="margin-bottom: 0;">
-          International trade depends on the expectation that courts will protect commercial interests when disputes arise. With the growing number of international conflicts, it is crucial to know whether this expectation is met in practice. We examine the effect of the 2014 annexation of Crimea on the enforcement rate of foreign decisions by Russian and Ukrainian judges. We assemble novel data on the entire universe of Russian and Ukrainian court decisions concerning the enforcement of foreign decisions resolving cross-border commercial disputes. Using a difference-in-differences design, we find that the enforcement rate of Ukrainian (Russian) decisions in Russia (Ukraine) fell by 26% (33%) after the annexation. We show that courts increasingly justified refusals through discretionary legal grounds and undue-notification claims. Our findings provide the first causal evidence that international conflict affects both judicial decision-making and compliance with commercial treaties.
-        </p>
-      </div>
-    </li>
-  </ul>
-  <div style="margin-top: 5px; padding-left: 0; font-size: 14px;">
-    <ul style="padding-left: 20px; margin-top: 0; margin-bottom: 0;">
-      <li>Co-author:
-        <a href="https://dshchetinin.com" style="color: black;">Dmitrii Shchetinin</a></li>
-      <li>Awards: <a href="https://stnavdeev.com/research/" style="color: black;">Best PhD Research Prize</a> on Repression, Surveillance, and Censorship in Contemporary Russia; <a href="https://www.side-isle.it/brenno-galli-award" style="color: black;">Brenno Galli Award for Best Young Scholar</a>, Italian Society of Law and Economics; <a href="https://www.mcgill.ca/law/research/essay-contests/nappert-prize-international-arbitration" style="color: black;">Honourable Mention</a>, Nappert Prize in International Arbitration</li>
-                        <li>
-      Podcast:
-      <a href="https://open.spotify.com/episode/0HJ5w3QAL8FAQlv5zQIHhT?si=pPUwCukIQe2f-xQsZ1vC6g" style="color: black;">Spotify</a>, <a href="https://podcasts.apple.com/nl/podcast/papers-to-podcast/id1811001985?i=1000774699634" style="color: black;">Apple</a>
-    </li>
-    </ul>
-  </div>
-    <h3 style="margin-top: 15px; margin-bottom: 5px; font-weight: normal;">
-    <a href="https://stnavdeev.github.io/Spillovers.pdf">Spillovers in Fields of Study: Siblings, Cousins, and Neighbors</a>
-  </h3>
-  <p style="margin-bottom: 0;"><i><b>Journal of Public Economics</b></i></p>
-  <ul style="padding-left: 20px; margin-top: 5px; margin-bottom: 0; font-size: 14px;">
-    <li>
-      Abstract: <a href="#" id="toggleAbstractButton" onclick="toggleVisibility('abstractContent','toggleAbstractButton'); return false;" style="text-decoration: underline; color: black; margin-left: 0;">Show</a>
-      <div id="abstractContent" style="display: none; margin-top: 5px; margin-left: 0;">
-        <p align="justify" style="margin-bottom: 0;">
-          We use admission lotteries for higher education studies in the Netherlands to investigate whether someone’s field of study influences the study choices of their younger peers. We find that younger siblings and cousins are strongly affected. Also younger neighbors are affected but to a smaller extent. These findings indicate that a substantial part of the correlations in study choices between family members can be attributed to spillover effects and are not due to shared environments. Our findings concur with those of recent studies based on admission thresholds, which find sibling spillovers on college or college-major choices. This indicates that the results from previous studies can be extrapolated to students away from admission thresholds, and from siblings to cousins and neighbors.
-        </p>
-      </div>
-    </li>
-    <li>
-      Co-authors:
-      <a href="https://sites.google.com/site/nadineketel/" style="color: black;">Nadine Ketel</a>, 
-      <a href="https://oosterbeek.economists.nl" style="color: black;">Hessel Oosterbeek</a>, and 
-      <a href="https://sites.google.com/view/basvanderklaauw/home" style="color: black;">Bas van der Klaauw</a>
-    </li>
-    <li>
-      Podcast:
-      <a href="https://open.spotify.com/episode/5te3DXveyIpLulPIqOuXZH?si=2CYU3HwdQFCPI9gQCF7r9g" style="color: black;">Spotify</a>, <a href="https://podcasts.apple.com/nl/podcast/papers-to-podcast/id1811001985?i=1000705162278" style="color: black;">Apple</a>
-    </li>
-    <li>
-      Media coverage:
-      <a href="https://cepr.org/voxeu/columns/peer-effects-field-study-choices" style="color: black;">VoxEU</a>, 
-      <a href="https://ase.uva.nl/content/news/2024/09/spillover-effects-when-choosing-a-field-of-study.html" style="color: black;">ASE</a>
-    </li>
-  </ul>
+## Working Papers
 
-  <h3 style="margin-top:15px; margin-bottom: 5px; font-weight: normal;">
-    <a href="https://stnavdeev.github.io/Avdeev_Bologna.pdf">Balancing Study and Work: Heterogeneous Impact of the Bologna Reform on the Labour Market</a>
-  </h3>
-  <p style="margin-bottom: 0;"><i><b>Oxford Bulletin of Economics and Statistics</b></i></p>
-  <ul style="padding-left: 20px; margin-top: 5px; margin-bottom: 0; font-size: 14px;">
-    <li>
-      Abstract: <a href="#" id="toggleAbstractPPButton" onclick="toggleVisibility('abstractPPContent','toggleAbstractPPButton'); return false;" style="text-decoration: underline; color: black; margin-left: 0;">Show</a>
-      <div id="abstractPPContent" style="display: none; margin-top: 5px; margin-left: 0;">
-        <p align="justify" style="margin-bottom: 0;">
-          The Bologna reform, the largest European education reform, was implemented in Russia in 2011. The reform shortened the duration of some undergraduate programmes by 1 year and compressed their curricula. Using a difference-in-differences design, I find that the reform had no short- or medium-term adverse effects on employment. However, I find that null average effects on wages mask considerable heterogeneity. I find that female students with high relative returns worked less during their studies, invested in their human capital, and secured stable wages. In contrast, male students with low relative returns underinvested in human capital and experienced a decline in wages.
-        </p>
-      </div>
-    </li>
-  </ul>
-  <div style="margin-top: 5px; padding-left: 0; font-size: 14px;">
-    <ul style="padding-left: 20px; margin-top: 0; margin-bottom: 0;">
-      <li>
-        Awards: <a href="https://www.hse.ru/en/nirs/" style="color: black;">Best Master's Thesis Award in Economics</a>, Higher School of Economics; <a href="https://eusp.org/en" style="color: black;">Best Master's Thesis Award in Economics</a>, European University at Saint Petersburg; <a href="https://ach.gov.ru/en" style="color: black;">Best Master's Thesis Award in Policy Evaluation</a>, Accounts Chamber of Russia; <a href="https://www.hse.ru/scholarships/news/323665835.html" style="color: black;">Scholarship</a>, Oxford Russia Fund
-      </li>
-      <li>
-      Podcast:
-      <a href="https://open.spotify.com/episode/1a9kFm20GTLZJo5cKRCv6Q?si=j0ksDIU8RXqqJQVnpWJUdA" style="color: black;">Spotify</a>, <a href="https://podcasts.apple.com/nl/podcast/papers-to-podcast/id1811001985?i=1000705162318" style="color: black;">Apple</a>
-    </li>
-      <li>
-        Media coverage: <a href="https://iq.hse.ru/en/news/480499696.html" style="color: black;">IQ.hse</a>
-      </li>
-    </ul>
-  </div>
+<article class="research-entry">
+  <h3><a href="{{ '/files/cartel-fines.pdf' | relative_url }}">How the design of cartel fines affects prices: Evidence from the lab</a></h3>
+  <p class="research-authors">With Sander Onderstal and Leonard Treuren.</p>
+  <p class="research-status">Revise and resubmit, <em>Journal of Law and Economics</em>.</p>
+  <details>
+    <summary>Abstract</summary>
+    <p>Antitrust authorities impose substantial penalties on firms engaging in illegal price-fixing. We examine how basing cartel fines on revenue, profit, or price overcharge influences prices, cartel incidence, and cartel stability. In an infinitely repeated Bertrand oligopoly game, we show that fines based on revenues/profits/overcharge incentivize firms to charge prices above/equal to/below the monopoly price. Cartels are stable for a smaller range of discount factors when fines are based on overcharges rather than other bases. We test these predictions in a laboratory experiment where subjects can form cartels, which allows them to discuss pricing at the risk of being detected and fined. By equalizing expected fines across treatments, we isolate the effect of the fine’s base. We find that market prices are lowest under overcharge-based fines and highest under revenue-based fines. While these results align with the theoretical predictions, cartel incidence and cartel stability do not differ significantly across fining regimes. Our results suggest that antitrust authorities could improve enforcement by shifting from revenue-based fines to profit- or overcharge-based fines.</p>
+  </details>
+</article>
 
+<article class="research-entry">
+  <h3><a href="https://doi.org/10.1787/88e3eb6e-en">The regulation of non-compete clauses across OECD countries</a></h3>
+  <p class="research-authors">With Dan Andrews, Tito Boeri, Andrea Garnero, Sara Holttinen, and Lorenzo G. Luisetto.</p>
+  <p class="research-status"><em>OECD Social, Employment and Migration Working Papers</em>, No. 332 (2026).</p>
+  <details>
+    <summary>Abstract</summary>
+    <p>Non-compete clauses can protect firms’ legitimate interests such as trade secrets or training investments, but they can also hinder worker mobility, wage growth, and innovation. Therefore, the way these clauses are regulated is central to balancing business needs with labour market dynamism. This paper provides the first cross-country analysis of non-compete regulatory regimes in OECD countries. It documents the main legal dimensions that govern their enforceability, and it develops a new index that captures regulatory strictness and structure. This extends earlier work on the United States. By systematically mapping these frameworks, the paper helps to fill a significant knowledge gap and supports policymakers in evaluating the effectiveness of current regulations in balancing the protection of firms with the fostering of competitive and innovative labour markets.</p>
+  </details>
+</article>
 
-  <h3 style="margin-top:15px; margin-bottom: 5px; font-weight: normal;">
-<a href="https://www.stnavdeev.com/Avdeev_Collaboration.pdf">International Collaboration in Higher Education Research: A Gravity Model Approach</a>
-  </h3>
-  <p style="margin-bottom: 0;"><i><b>Scientometrics</b></i></p>
-  <ul style="padding-left: 20px; margin-top: 5px; margin-bottom: 0; font-size: 14px;">
-    <li>
-      Abstract: <a href="#" id="toggleAbstractPPButton5" onclick="toggleVisibility('abstractPPContent5','toggleAbstractPPButton5'); return false;" style="text-decoration: underline; color: black; margin-left: 0;">Show</a>
-      <div id="abstractPPContent5" style="display: none; margin-top: 5px; margin-left: 0;">
-        <p align="justify" style="margin-bottom: 0;">
-          Although geographical distance has become less relevant in co–authorship for monodisciplinary fields such as economics, mathematics, and physics, little is known about international collaboration in multidisciplinary fields such as higher education. This paper studies collaboration patterns in higher education research using the Scopus database with the application of the gravity model. The results show that the intensity of collaboration is negatively associated with geographical distance and positively associated with linguistic commonality but these findings differ significantly between various world regions. European scholars appear to give preference to linguistically proximate partners over geographical neighbours. Although English is the lingua franca in science, language is not a significant factor for the formation of collaboration for North American and Asian researchers. These findings have policy implications for fostering multidisciplinary research in international partnerships.
-        </p>
-      </div>
-    </li>
-    <li>
-      Podcast:
-      <a href="https://open.spotify.com/episode/7ruOkFZhuyAijzc1gS8SMH?si=13bb552c53f847ca" style="color: black;">Spotify</a>, <a href="https://podcasts.apple.com/nl/podcast/papers-to-podcast/id1811001985?i=1000705162180" style="color: black;">Apple</a>
-    </li>
-  </ul>
-</div>
+## Work in Progress
 
+<article class="research-entry">
+  <h3>The Global Spread of Worker Mobility Restrictions: New Facts from 15 OECD Countries</h3>
+  <p class="research-authors">With Dan Andrews, Tito Boeri, Andrea Garnero, Sara Holttinen, and Federica Meluzzi.</p>
+  <details>
+    <summary>Abstract</summary>
+    <p>We provide the first harmonized cross-country evidence on worker mobility restrictions using large-scale employer and employee surveys across 15 OECD countries. Several findings emerge. First, non-compete agreements (NCAs) are widespread, covering 15%–40% of workers. Second, their use is increasing across countries. Third, their use extends beyond high-skill roles to low-income, low-education, and temporary workers. Fourth, young workers, especially new labour market entrants, are disproportionately affected. Finally, firms of all sizes and industries use NCAs. These patterns suggest mobility restrictions are a structural labour market feature with potential implications for welfare, labour reallocation and productivity.</p>
+  </details>
+</article>
 
-<!-- Working Papers Section -->
-<h2 style="margin-top: 50px; font-weight: bold; text-align: left;">Working Papers</h2>
-<div style="padding-left: 0px;"> 
- <h3 style="margin-top: 15px; margin-bottom: 5px; font-weight: normal;">
-    <a href="https://stnavdeev.github.io/Researcher_Variation.pdf">The Sources of Researcher Variation in Economics</a>
-  </h3>
-  <p style="margin-bottom: 0;"><i><b>Journal of Economic Literature</b> (Accepted)</i></p>
-  <ul style="padding-left: 20px; margin-top: 5px; margin-bottom: 0; font-size: 14px;">
-    <li>
-      Abstract: <a href="#" id="toggleAbstractWPButton" onclick="toggleVisibility('abstractWPContent','toggleAbstractWPButton'); return false;" style="text-decoration: underline; color: black; margin-left: 0;">Show</a>
-      <div id="abstractWPContent" style="display: none; margin-top: 5px; margin-left: 0;">
-        <p align="justify" style="margin-bottom: 0;">       
-Disagreement among researchers is a central and productive feature of scientific progress. However, researchers’ discretionary choices, some of which are not easily observable, may cause standard errors to understate uncertainty. This paper synthesizes evidence on how researcher variation shapes empirical conclusions and presents new evidence on its sources and implications. We also report results from a many-analyst study in which 146 research teams estimate the same causal effect under varying constraints. Although central estimates are broadly aligned, dispersion remains substantial. Imposing a shared research design reduced agreement, partly due to adherence errors. Further restricting data cleaning and preparation improved agreement. Variation across researchers is often comparable in magnitude to sampling uncertainty but is unevenly distributed across stages of the research process. Overall, the evidence suggests that conventional uncertainty summaries understate total uncertainty and that less visible research decisions warrant greater scrutiny. 
-        </p>
-      </div>
-    </li>
-  </ul>
-  <div style="margin-top: 5px; padding-left: 0; font-size: 14px;">
-    <ul style="padding-left: 20px; margin-top: 0; margin-bottom: 0;">
-      <li>
-        Co-authors:
-        <a href="https://www.nickchk.com" style="color: black;">Nick Huntington-Klein</a>, 
-        <a href="http://clausportner.com" style="color: black;">Claus C. Pörtner</a>, et al.
-      </li>
-      <li>
-      Podcast:
-      <a href="https://open.spotify.com/episode/5tS6VTmnsSRYI1R5P5tfQx?si=iBqxLnQ6QIGT9Bn8lZhs1g" style="color: black;">Spotify</a>, <a href="https://podcasts.apple.com/nl/podcast/papers-to-podcast/id1811001985?i=1000705162382" style="color: black;">Apple</a>
-    </li>
-      <li>
-        Media coverage:
-        <a href="https://causalinf.substack.com/p/many-analyst-designs-data-preparation" style="color: black;">Scott’s Substack</a>
-      </li>
-    </ul>
-  </div>
-</div>
+<article class="research-entry">
+  <h3>Strategic Sustainability Investment under Voluntary Cooperation</h3>
+</article>
 
+<article class="research-entry">
+  <h3>Disrupting an Oligopoly? Costco Entry and Fuel Prices in Iceland</h3>
+</article>
 
-<!-- Work in Progress Section -->
-<h2 style="margin-top: 50px; font-weight: bold; text-align: left;">Work in Progress</h2>
-<div style="padding-left: 0px;"> 
-  <h3 style="margin-top: 15px; margin-bottom: 5px; color: #b80057; font-weight: normal;">The Welfare Consequences of Preventable Chronic Disease</h3>
-  <div style="margin-top: 5px; padding-left: 0; font-size: 14px;">
-</div>
+## Policy Contributions
 
-
-<h2 style="margin-top: 50px; font-weight: bold; text-align: left;">Policy Research</h2>
-<div style="padding-left: 0px;"> 
-  <h3 style="margin-top: 15px; margin-bottom: 5px; color: #b80057; font-weight: normal;">Uncovering Inequities in the Cardiovascular Disease Care Cascade</h3>
-  <ul style="padding-left: 20px; margin-top: 5px; margin-bottom: 0; font-size: 14px;">
-    <li>
-      Abstract: <a href="#" id="toggleAbstractPolicy1" onclick="toggleVisibility('abstractPolicy1','toggleAbstractPolicy1'); return false;" style="text-decoration: underline; color: black; margin-left: 0;">Show</a>
-      <div id="abstractPolicy1" style="display: none; margin-top: 5px; margin-left: 0;">
-        <p align="justify" style="margin-bottom: 0;">
-          We study inequalities in cardiovascular disease risk, treatment, and outcomes in Amsterdam. The project supports CARDIO4Cities by mapping the cardiovascular care cascade across neighbourhoods and population groups. Using Dutch administrative data and healthcare claims for the adult population of Amsterdam, we measure treatment for three major modifiable risk factors: hypertension, dyslipidaemia, and type 2 diabetes. We also examine major cardiovascular events, including stroke and myocardial infarction, and relate these outcomes to prior treatment for cardiovascular risk factors. The first phase estimates trends in treatment prevalence and incidence from 2006 to 2024 and maps neighbourhood-level variation in 2024, adjusting for differences in population composition. It also studies cardiovascular events and mortality between 2016 and 2024 by age, gender, migration background, household composition, income, and socioeconomic status. The project identifies where cardiovascular risk and adverse outcomes concentrate in Amsterdam and provides an empirical basis for targeted prevention and monitoring.
-        </p>
-      </div>
-    </li>
-  </ul>
-
-  <h3 style="margin-top: 15px; margin-bottom: 5px; color: #b80057; font-weight: normal;">Care in the Last 1000 Days of Life</h3>
-  <ul style="padding-left: 20px; margin-top: 5px; margin-bottom: 0; font-size: 14px;">
-    <li>
-      Abstract: <a href="#" id="toggleAbstractPolicy2" onclick="toggleVisibility('abstractPolicy2','toggleAbstractPolicy2'); return false;" style="text-decoration: underline; color: black; margin-left: 0;">Show</a>
-      <div id="abstractPolicy2" style="display: none; margin-top: 5px; margin-left: 0;">
-        <p align="justify" style="margin-bottom: 0;">
-          We study healthcare use and expenditure in the final 1,000 days of life in the Netherlands. Linking Dutch administrative data with healthcare claims, we follow all people who died in 2023 and describe how care use changes as death approaches. The last 1,000 days account for €7.6 billion in basic health insurance spending, or about €45,000 per person, which corresponds to roughly one fifth of average lifetime spending. Hospital and specialist care makes up 55% of these costs, and 14% of all specialist spending in the 1,000-day period occurs in the final month. At the same time, the results show meaningful variation across groups: inflation-adjusted spending per person declines between 2019 and 2023, specialist care costs fall sharply after age 70, and dementia follows a distinct pattern in which specialist care use decreases near death. The project documents where curative care concentrates at the end of life and provides evidence for debates on appropriate care and decision-making in the final stage of life.
-        </p>
-      </div>
-    </li>
-  </ul>
-
-  <h3 style="margin-top: 15px; margin-bottom: 5px; color: #b80057; font-weight: normal;">Understanding HIV Care in the Netherlands: A Pragmatic Cost Perspective</h3>
-  <ul style="padding-left: 20px; margin-top: 5px; margin-bottom: 0; font-size: 14px;">
-    <li>
-      Abstract: <a href="#" id="toggleAbstractPolicy3" onclick="toggleVisibility('abstractPolicy3','toggleAbstractPolicy3'); return false;" style="text-decoration: underline; color: black; margin-left: 0;">Show</a>
-      <div id="abstractPolicy3" style="display: none; margin-top: 5px; margin-left: 0;">
-        <p align="justify" style="margin-bottom: 0;">
-          We study HIV care in the Netherlands from a healthcare and societal cost perspective. The project starts from a central policy problem: although the Netherlands treats most people living with HIV successfully, an estimated 3,500 people remain outside successful treatment, including about 1,470 people who do not know their HIV status. New diagnoses declined for many years but stabilised at just over 400 per year between 2020 and 2023. Using Dutch administrative data, healthcare claims, and HIV-domain expertise, we describe who receives HIV care, where they live, and how their healthcare use develops over time. We compare people living with HIV to people without HIV across general practice, hospital care, pharmaceuticals, mental healthcare, long-term care, and social support. We also examine labour market outcomes, income, and use of income support. The project builds an empirical baseline for assessing the costs and potential benefits of future HIV prevention strategies, including long-acting PrEP and other interventions aimed at reducing new infections.
-        </p>
-      </div>
-    </li>
-  </ul>
-
-  <h3 style="margin-top: 15px; margin-bottom: 5px; color: #b80057; font-weight: normal;">Men and Women in Healthcare: Differences in Focus</h3>
-  <ul style="padding-left: 20px; margin-top: 5px; margin-bottom: 0; font-size: 14px;">
-    <li>
-      Abstract: <a href="#" id="toggleAbstractPolicy4" onclick="toggleVisibility('abstractPolicy4','toggleAbstractPolicy4'); return false;" style="text-decoration: underline; color: black; margin-left: 0;">Show</a>
-      <div id="abstractPolicy4" style="display: none; margin-top: 5px; margin-left: 0;">
-        <p align="justify" style="margin-bottom: 0;">
-         We study gender differences in healthcare use, healthcare costs, and chronic conditions among adults in Amsterdam. Using Dutch administrative data and healthcare claims, we compare men and women across primary care, diagnostics, referrals, mental healthcare, hospital care, pharmaceuticals, and selected chronic conditions. Women visit general practitioners 1.5 times more often than men, receive 1.4 times more primary-care diagnostics, and receive 1.6 times more referrals to medical specialists, while the referral rate per general-practice consultation remains similar. Women have 14% higher basic health insurance costs on average and represent the majority of patients for most chronic conditions we study, including migraine and thyroid disorders, which occur more than three times as often among women. However, after diagnosis, healthcare costs and use increase more strongly for men with migraine and thyroid disorders, and men with thyroid disorders follow more intensive hospital trajectories. These patterns show that gender differences in care reflect both unequal disease prevalence and differences in diagnostic and treatment pathways after diagnosis.
-</p>
-      </div>
-    </li>
-  </ul>
-</div>
-
-
-<!-- Generic JavaScript Function for Toggle -->
-<script>
-  function toggleVisibility(contentId, linkId) {
-    var content = document.getElementById(contentId);
-    var link = document.getElementById(linkId);
-    if (content.style.display === "none") {
-      content.style.display = "block";
-      link.textContent = "Hide";
-    } else {
-      content.style.display = "none";
-      link.textContent = "Show";
-    }
-  }
-</script>
+<article class="research-entry">
+  <h3><a href="https://doi.org/10.1787/7e710f54-en">OECD Employment Outlook 2026</a></h3>
+  <p>Contributed to the development of the surveys underlying Chapter 5, “Non-compete and related agreements: Hoarding talent, holding back growth?”</p>
+</article>

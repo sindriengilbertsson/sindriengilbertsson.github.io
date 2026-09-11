@@ -1,29 +1,10 @@
 ---
+layout: single
+title: "About"
 permalink: /
-title: 
 author_profile: true
-redirect_from: 
-  - /about/
-  - /about.html
 ---
 
-<p align="justify">  
-My name is Stanislav Avdeev, and I am a PhD Candidate in Economics at the University of Amsterdam. I have been a visiting researcher at the University of Bergen and the University of Zurich. My research examines discrimination and diversity in higher education and healthcare using large-scale administrative and survey data from the Netherlands and Norway, combined with quasi-experimental methods.
-</p>
-<p align="justify">
-My work has been published in academic journals, including American Economic Journal: Applied Economics, Journal of Public Economics, and Journal of Economic Literature. I have received research funding from the European Association for International Education and the Sustainable Future Initiative, and my work has been recognised with best paper awards at the European Society for Population Economics Conference, the CESifo/ifo Junior Workshop on the Economics of Education, and other academic venues.
-</p>
-<p align="justify">
-In addition to academic work, I lead policy evaluation research at the Amsterdam Health and Technology Institute, an independent research institute focused on healthcare policy and evidence-based decision-making. I also serve as an expert reviewer for UNESCO’s Global Education Monitoring Report.
-</p>
-<p align="justify">
-If you are interested in research or teaching collaborations, feel free to contact me at <a href="mailto:stnavdeev@gmail.com" style="color: black;">stnavdeev@gmail.com</a>
-</p>
-<h2 style="margin-top: 30px; font-weight: normal; text-align: left;">
-  <strong>Upcoming talks</strong> 
-</h2>
+I am a PhD candidate in Economics at the University of Amsterdam, focusing on industrial organisation and competition policy. My research examines cartel enforcement, sustainability cooperation and market entry, as well as non-compete agreements through collaboration with researchers at the OECD.
 
-<ul style="margin-top: 7.5px; margin-left: 0px; padding-left: 20px;">
-  <li><a href="https://www.eaie.org/events/glasgow.html" target="_blank">European Association for International Education Conference</a>, 8-11 September, Glasgow, United Kingdom</li>
-  
-</ul>
+You can find my papers and current projects on the [Research page]({{ '/research/' | relative_url }}), and details of my education, experience and presentations in my [CV]({{ '/files/CV_SindriEngilbertsson.pdf' | relative_url }}).

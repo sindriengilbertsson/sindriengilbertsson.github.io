@@ -1,10 +1,8 @@
-# main links links
 main:
   - title: "Research"
-    url: /research/  
-
+    url: /research/
   - title: "Teaching"
-    url: /teaching/    
-    
+    url: /teaching/
   - title: "CV"
-    url: https://stnavdeev.github.io/Avdeev_CV.pdf
+    url: /files/CV_SindriEngilbertsson.pdf
+

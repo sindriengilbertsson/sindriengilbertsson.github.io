@@ -1,0 +1,34 @@
+name: Check website
+
+on:
+  push:
+    branches: [master]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out website
+        uses: actions/checkout@v4
+
+      - name: Build with GitHub Pages Jekyll
+        uses: actions/jekyll-build-pages@v1
+        with:
+          source: ./
+          destination: ./_site
+
+      - name: Check rendered pages and assets
+        run: python3 scripts/check_site.py _site
+
+      - name: Save website preview
+        uses: actions/upload-artifact@v4
+        with:
+          name: site-preview
+          path: _site/
+          retention-days: 7
+          if-no-files-found: error

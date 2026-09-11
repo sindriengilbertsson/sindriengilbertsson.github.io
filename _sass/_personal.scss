@@ -1,0 +1,39 @@
+/* Personal site adjustments to the AcademicPages theme. */
+a, a:visited { color: #0057b8; }
+a:hover { color: #003f87; }
+a:focus-visible, summary:focus-visible { outline: 2px solid #0057b8; outline-offset: 4px; }
+.site-nav { display: flex; flex-wrap: wrap; align-items: center; gap: 1rem 2.5rem; }
+.site-nav a { text-decoration: none; }
+.site-nav a:hover, .site-nav [aria-current="page"] { text-decoration: underline; text-underline-offset: .3em; }
+.site-name { font-weight: 700; }
+.site-nav ul { display: flex; flex-wrap: wrap; list-style: none; gap: 1.5rem; margin: 0; padding: 0; }
+.site-nav li { margin: 0; }
+.author__avatar img { border-radius: 4px; }
+.sidebar .author__name { font-size: 1em; line-height: 1.35; overflow-wrap: normal; }
+.author__bio, .author__focus { line-height: 1.5; }
+.author__focus { margin: 0 0 1em; }
+.author__contact { overflow-wrap: anywhere; }
+.research-entry { margin: 0 0 1.75em; }
+.page__content .research-entry h3 { margin: 0 0 .4em; font-size: 1em; line-height: 1.45; color: #c82020; }
+.page__content .research-authors, .page__content .research-status { margin: 0 0 .35em; }
+.research-status { font-size: .9em; }
+.research-entry details { margin-top: .6em; }
+.research-entry summary { width: fit-content; cursor: pointer; color: #0057b8; font-size: .9em; }
+.research-entry summary:hover { text-decoration: underline; }
+.research-entry details p { margin: .8em 0 0; font-size: .9em; }
+.skip-link { position: absolute; left: 1rem; top: -5rem; z-index: 100; padding: .5rem 1rem; background: #fff; }
+.skip-link:focus { top: 1rem; }
+@media (max-width: 924px) {
+  .author__avatar { width: 100px; }
+  .author__avatar img { width: 100px; max-width: 100px; }
+  .author__content { padding-right: 0; }
+  .author__bio { margin-top: .5em; }
+  .author__focus, .author__contact { margin: .5em 0 0; }
+}
+@media (max-width: 600px) {
+  .site-nav { gap: .75rem; }
+  .site-name { width: 100%; }
+  .site-nav ul { gap: 1.5rem; }
+  .author__avatar { width: 80px; }
+  .author__avatar img { width: 80px; max-width: 80px; }
+}

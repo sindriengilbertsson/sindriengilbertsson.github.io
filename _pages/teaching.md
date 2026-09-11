@@ -1,69 +1,24 @@
 ---
-title: 
+layout: single
+title: "Teaching"
 permalink: /teaching/
 author_profile: true
 ---
 
-<p align="justify">  
-I am committed to open science and to improving econometrics training in causal inference. I teach causal inference and applied econometrics in academic and private-sector settings, and my teaching has been recognized with a teaching award. I have also developed open-access econometrics materials in R on GitHub, contributed to the Russian translation of "A Guide to Modern Econometrics" by Marno Verbeek, and served as a jury member at the Econometric Game. 
-</p>
+## University of Amsterdam
 
+- **Empirical Market Analysis** (graduate), 2023–2026
+- **Industrial Organisation** (undergraduate), 2026
+- **Economics in a Global Business World** (undergraduate), 2026
+- **Economics of Markets and Organizations** (undergraduate), 2023–2025
 
-<h2 style="margin-top: 30px; font-weight: bold; text-align: left;">Tinbergen Institute</h2>
-<ul style="margin-top: 7.5px; margin-left: 0; padding-left: 20px;">
-  <li>Econometrics II (PhD-level): Tutorial slides with R code are available on <a href="https://github.com/stnavdeev/econometrics">GitHub</a></li>
-  <li>Award: <a href="https://tinbergen.nl/news/813/diploma-ceremony-student-cohort-of-2020-2022?year=2022&month=11&day=25">Teaching Assistant of the Year</a></li>
-</ul>
+## Tinbergen Institute
 
-<h2 style="margin-top: 30px; font-weight: bold; text-align: left;">University of Amsterdam</h2>
-<ul style="margin-top: 7.5px; margin-left: 0; padding-left: 20px;">
-    <li>Applied Econometrics (bachelor- and master-level)</li>
-  <li>Thesis Supervision (bachelor-level): A collection of datasets is available <a href="https://docs.google.com/spreadsheets/d/1YHLiJQMbPDYfQJPDgdNKVfN1xAvqri1RxvSQaRvr_OE/edit?usp=sharing">here</a></li>
-  <li>Economics (bachelor-level)</li>
-</ul>
+- **Fundamental Mathematics** (graduate), 2021
 
-<h2 style="margin-top: 30px; font-weight: bold; text-align: left;">Vrije Universiteit Amsterdam</h2>
-<ul style="margin-top: 7.5px; margin-left: 0; padding-left: 20px;">
-    <li>Health Economics (bachelor-level)</li>
-</ul>
+## University of Iceland
 
-
-<h2 style="margin-top: 30px; font-weight: bold; text-align: left;">Higher School of Economics</h2>
-<ul style="margin-top: 7.5px; margin-left: 0; padding-left: 20px;">
-  <li>Economics of Education (bachelor-level)</li>
-</ul>
-
-<h2 style="margin-top: 30px; font-weight: bold; text-align: left;">Textbook Contribution</h2>
-<div style="padding-left: 0;"> 
-  <h3 style="margin-top: 7.5px; margin-bottom: 5px; font-weight: normal;">
-<a href="https://id.hse.ru/books/1040796649.html">Models Based on Panel Data: Translation into Russian</a>
-  </h3>
-  <p style="margin-bottom: 0;"><i><b>A Guide to Modern Econometrics</b></i>, by Marno Verbeek</p>
-  <ul style="padding-left: 20px; margin-top: 5px; margin-bottom: 0; font-size: 14px;">
-    <li>
-      Abstract: <a href="#" id="toggleAbstractPPButton4" onclick="toggleVisibility('abstractPPContent4','toggleAbstractPPButton4'); return false;" style="text-decoration: underline; color: black; margin-left: 0;">Show</a>
-      <div id="abstractPPContent4" style="display: none; margin-top: 5px; margin-left: 0;">
-        <p align="justify" style="margin-bottom: 0;">
-          This is the translation of the 5th edition of the textbook "A Guide to Modern Econometrics" by Marno Verbeek into Russian. The translation makes advanced econometric methods accessible to Russian-speaking students and researchers, supporting econometrics training in graduate programs and professional courses. I contributed as translator of Chapter 10, <i>Models Based on Panel Data</i>.
-        </p>
-      </div>
-    </li>
-  </ul>
-</div>
-
-
-
-<!-- Generic JavaScript Function for Toggle -->
-<script>
-  function toggleVisibility(contentId, linkId) {
-    var content = document.getElementById(contentId);
-    var link = document.getElementById(linkId);
-    if (content.style.display === "none") {
-      content.style.display = "block";
-      link.textContent = "Hide";
-    } else {
-      content.style.display = "none";
-      link.textContent = "Show";
-    }
-  }
-</script>
+- **Labour Economics** (undergraduate), 2020
+- **Money and Banking** (undergraduate), 2019
+- **Microeconomics II, III & IV** (undergraduate), 2017–2020
+- **Economic Mathematics II** (undergraduate), 2017
