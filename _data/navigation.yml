@@ -5,4 +5,4 @@ main:
     url: /teaching/
   - title: "CV"
     url: /files/CV_SindriEngilbertsson.pdf
-
+    new_tab: true
