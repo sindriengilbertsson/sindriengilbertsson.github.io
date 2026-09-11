@@ -10,12 +10,17 @@ from pathlib import Path
 import re
 import sys
 from urllib.parse import unquote, urljoin, urlsplit
+import xml.etree.ElementTree as ET
 
 
 IDENTITY = "Sindri Engilbertsson"
 SITE_HOSTS = {"sindriengilbertsson.github.io"}
-REQUIRED_PAGES = ("index.html", "research/index.html", "teaching/index.html")
-APPROVED_PDFS = {"files/CV_SindriEngilbertsson.pdf", "files/cartel-fines.pdf"}
+REQUIRED_PAGES = ("index.html", "research/index.html", "teaching/index.html", "story/index.html")
+APPROVED_PDFS = {
+    "files/CV_SindriEngilbertsson.pdf",
+    "files/cartel-fines.pdf",
+    "files/Industrial organization.pdf",
+}
 PORTRAIT = "images/SindriEngilbertsson.jpg"
 FORBIDDEN = re.compile(
     r"avdeev|sindrieng\.github\.io|G-T5NRPXKWYG|googletagmanager\.com|google-analytics\.com",
@@ -27,16 +32,26 @@ class Page(HTMLParser):
     def __init__(self):
         super().__init__(convert_charrefs=True)
         self.links = []
+        self.nav_links = []
+        self.robots = set()
         self.text = []
         self.abstracts = []
         self._details = []
         self._summary_depth = 0
         self._hidden_depth = 0
+        self._nav_depth = 0
 
     def handle_starttag(self, tag, attrs):
+        if tag == "nav":
+            self._nav_depth += 1
+        attributes = dict(attrs)
+        if tag == "meta" and attributes.get("name", "").casefold() == "robots":
+            self.robots.update(re.split(r"[,\s]+", attributes.get("content", "").casefold()))
         for name, value in attrs:
             if name in {"href", "src"} and value:
                 self.links.append(value)
+                if tag == "a" and self._nav_depth:
+                    self.nav_links.append(value)
         if tag in {"script", "style"}:
             self._hidden_depth += 1
         if tag == "details":
@@ -45,6 +60,8 @@ class Page(HTMLParser):
             self._summary_depth += 1
 
     def handle_endtag(self, tag):
+        if tag == "nav":
+            self._nav_depth = max(0, self._nav_depth - 1)
         if tag in {"script", "style"}:
             self._hidden_depth = max(0, self._hidden_depth - 1)
         if tag == "summary":
@@ -111,6 +128,30 @@ def check_site(build_dir):
     research = parsed.get("research/index.html")
     if research is not None and len(research.abstracts) < 3:
         problems.append("Research needs at least three nonempty expandable abstracts")
+
+    story = parsed.get("story/index.html")
+    story_target = build_dir / "story/index.html"
+    unlisted_targets = {story_target, build_dir / "files/Industrial organization.pdf"}
+    if story is not None and "noindex" not in story.robots:
+        problems.append("Story page needs a noindex robots meta tag")
+    for relative, page in parsed.items():
+        for link in page.nav_links:
+            try:
+                if local_target(build_dir, Path(relative), link) in unlisted_targets:
+                    problems.append(f"{relative}: story page and PDF must stay out of navigation")
+            except ValueError:
+                pass  # The local-link check above already reports invalid paths.
+
+    sitemap = build_dir / "sitemap.xml"
+    if sitemap.is_file():
+        try:
+            for element in ET.parse(sitemap).iter():
+                if element.tag.rsplit("}", 1)[-1] != "loc" or not element.text:
+                    continue
+                if local_target(build_dir, Path("sitemap.xml"), element.text.strip()) in unlisted_targets:
+                    problems.append("Story page and PDF must stay out of the sitemap")
+        except (ET.ParseError, ValueError) as error:
+            problems.append(f"Invalid sitemap: {error}")
 
     for relative in sorted(APPROVED_PDFS | {PORTRAIT}):
         asset = build_dir / relative

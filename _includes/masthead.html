@@ -1,10 +1,10 @@
 <div class="masthead">
   <div class="masthead__inner-wrap">
     <nav class="site-nav" aria-label="Main navigation">
-      <a class="site-name" href="{{ '/' | relative_url }}"{% if page.url == '/' %} aria-current="page"{% endif %}>{{ site.title }}</a>
+      <a class="site-name" href="{{ '/' | relative_url }}" target="_blank" rel="noopener noreferrer"{% if page.url == '/' %} aria-current="page"{% endif %}>{{ site.title }}</a>
       <ul>
         {% for link in site.data.navigation.main %}
-        <li><a href="{{ link.url | relative_url }}"{% if page.url == link.url %} aria-current="page"{% endif %}>{{ link.title }}</a></li>
+        <li><a href="{{ link.url | relative_url }}" target="_blank" rel="noopener noreferrer"{% if page.url == link.url %} aria-current="page"{% endif %}>{{ link.title }}</a></li>
         {% endfor %}
       </ul>
     </nav>

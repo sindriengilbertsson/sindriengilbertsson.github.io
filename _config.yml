@@ -59,6 +59,10 @@ defaults:
     values:
       layout: single
       author_profile: true
+  - scope:
+      path: "files/Industrial organization.pdf"
+    values:
+      sitemap: false
 
 sass:
   sass_dir: _sass

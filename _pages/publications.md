@@ -8,7 +8,7 @@ author_profile: true
 ## Working Papers
 
 <article class="research-entry">
-  <h3><a href="{{ '/files/cartel-fines.pdf' | relative_url }}">How the design of cartel fines affects prices: Evidence from the lab</a></h3>
+  <h3><a href="{{ '/files/cartel-fines.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer">How the design of cartel fines affects prices: Evidence from the lab</a></h3>
   <p class="research-authors">With Sander Onderstal and Leonard Treuren.</p>
   <p class="research-status">Revise and resubmit, <em>Journal of Law and Economics</em>.</p>
   <details>
@@ -18,7 +18,7 @@ author_profile: true
 </article>
 
 <article class="research-entry">
-  <h3><a href="https://doi.org/10.1787/88e3eb6e-en">The regulation of non-compete clauses across OECD countries</a></h3>
+  <h3><a href="https://doi.org/10.1787/88e3eb6e-en" target="_blank" rel="noopener noreferrer">The regulation of non-compete clauses across OECD countries</a></h3>
   <p class="research-authors">With Dan Andrews, Tito Boeri, Andrea Garnero, Sara Holttinen, and Lorenzo G. Luisetto.</p>
   <p class="research-status"><em>OECD Social, Employment and Migration Working Papers</em>, No. 332 (2026).</p>
   <details>
@@ -49,6 +49,6 @@ author_profile: true
 ## Policy Contributions
 
 <article class="research-entry">
-  <h3><a href="https://doi.org/10.1787/7e710f54-en">OECD Employment Outlook 2026</a></h3>
+  <h3><a href="https://doi.org/10.1787/7e710f54-en" target="_blank" rel="noopener noreferrer">OECD Employment Outlook 2026</a></h3>
   <p>Contributed to the development of the surveys underlying Chapter 5, “Non-compete and related agreements: Hoarding talent, holding back growth?”</p>
 </article>

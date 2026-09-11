@@ -3,6 +3,8 @@
 {% assign seo_description = page.description | default: site.description %}
 <title>{{ seo_title | escape }}</title>
 <meta name="description" content="{{ seo_description | escape }}">
+<meta name="google-site-verification" content="FugEQcV9Xu40c6ZpcYe5F52aMPBHdm4FyvMKR6rwIWY" />
+{% if page.noindex %}<meta name="robots" content="noindex">{% endif %}
 <link rel="canonical" href="{{ page.url | absolute_url }}">
 <meta property="og:type" content="website">
 <meta property="og:locale" content="{{ site.locale | replace: '-', '_' }}">

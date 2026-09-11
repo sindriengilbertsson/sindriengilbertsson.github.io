@@ -1,0 +1,15 @@
+---
+layout: default
+---
+<main id="main" class="about-page">
+  <article class="about-grid" aria-labelledby="about-title">
+    <figure class="about-portrait">
+      <img src="{{ site.author.avatar | prepend: '/images/' | relative_url }}" alt="{{ site.author.name }}">
+      <figcaption><a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></figcaption>
+    </figure>
+    <div class="about-copy page__content">
+      <h1 id="about-title">{{ page.title }}</h1>
+      {{ content }}
+    </div>
+  </article>
+</main>
