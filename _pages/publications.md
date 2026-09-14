@@ -40,10 +40,18 @@ author_profile: true
 
 <article class="research-entry">
   <h3>Strategic Sustainability Investment under Voluntary Cooperation</h3>
+  <details>
+    <summary>Abstract</summary>
+    <p>Can voluntary cooperation between firms increase sustainability investment? I study a model in which firms invest in sustainability before competing in quantities. Investment raises demand for both the investing firm and its rivals, creating a trade-off between spillovers and business-stealing incentives. Coordination increases total investment when spillovers dominate, but reduces it when business-stealing dominates. Even when cooperation would increase investment, incentives to remain outside an agreement can undermine its stability. Larger agreements require stronger spillovers to prevent firms from leaving, limiting the investment gains achievable through voluntary cooperation.</p>
+  </details>
 </article>
 
 <article class="research-entry">
   <h3>Disrupting an Oligopoly? Costco Entry and Fuel Prices in Iceland</h3>
+  <details>
+    <summary>Abstract</summary>
+    <p>This project examines how Costco's entry into Iceland's retail fuel market in 2017 affected incumbent stations' prices and margins. Using daily station-level price data from 2007 to 2025, the planned analysis compares responses across stations with different exposure to the entrant. It asks whether entry leads to persistent price reductions or whether initial competitive responses fade, accounting for changes in costs, demand and subsequent mergers.</p>
+  </details>
 </article>
 
 ## Policy Contributions

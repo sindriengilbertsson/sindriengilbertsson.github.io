@@ -19,7 +19,7 @@ REQUIRED_PAGES = ("index.html", "research/index.html", "teaching/index.html", "s
 APPROVED_PDFS = {
     "files/CV_SindriEngilbertsson.pdf",
     "files/cartel-fines.pdf",
-    "files/Industrial organization.pdf",
+    "files/Industrial_Organization.pdf",
 }
 PORTRAIT = "images/SindriEngilbertsson.jpg"
 FORBIDDEN = re.compile(
@@ -131,7 +131,7 @@ def check_site(build_dir):
 
     story = parsed.get("story/index.html")
     story_target = build_dir / "story/index.html"
-    unlisted_targets = {story_target, build_dir / "files/Industrial organization.pdf"}
+    unlisted_targets = {story_target, build_dir / "files/Industrial_Organization.pdf"}
     if story is not None and "noindex" not in story.robots:
         problems.append("Story page needs a noindex robots meta tag")
     for relative, page in parsed.items():

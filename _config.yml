@@ -60,7 +60,7 @@ defaults:
       layout: single
       author_profile: true
   - scope:
-      path: "files/Industrial organization.pdf"
+      path: "files/Industrial_Organization.pdf"
     values:
       sitemap: false
 
