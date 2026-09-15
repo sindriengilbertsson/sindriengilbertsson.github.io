@@ -58,5 +58,5 @@ author_profile: true
 
 <article class="research-entry">
   <h3><a href="https://doi.org/10.1787/7e710f54-en" target="_blank" rel="noopener noreferrer">OECD Employment Outlook 2026</a></h3>
-  <p>Contributed to the development of the surveys underlying Chapter 5, “Non-compete and related agreements: Hoarding talent, holding back growth?”</p>
+  <p>Contributed to the development of the surveys and the data analysis underlying Chapter 5, “Non-compete and related agreements: Hoarding talent, holding back growth?”</p>
 </article>
