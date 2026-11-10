@@ -58,7 +58,7 @@ author_profile: true
 
 <article class="research-entry">
   <h3>The Effect of Brexit on the UK Economy (So Far)</h3>
-  <p class="research-authors">With Gylfi Zoega &middot; <a href="https://doi.org/10.1007/978-3-030-46143-0_8" target="_blank" rel="noopener noreferrer">Published chapter</a> &middot; <a href="https://eprints.bbk.ac.uk/id/eprint/29030/15/29030b.pdf" target="_blank" rel="noopener noreferrer">Working paper (PDF)</a></p>
+  <p class="research-authors">With Gylfi Zoega &middot; <a href="https://doi.org/10.1007/978-3-030-46143-0_8" target="_blank" rel="noopener noreferrer">Published chapter</a> </p>
   <p class="research-status">In <em>Capitalism, Global Change and Sustainable Development</em>, edited by Luigi Paganetto (Springer, 2020), pp. 111–139. Proceedings of the 31st Villa Mondragone International Economic Seminar.</p>
   <details>
     <summary>Abstract</summary>
