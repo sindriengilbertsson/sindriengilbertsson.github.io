@@ -8,8 +8,8 @@ author_profile: true
 ## Working Papers
 
 <article class="research-entry">
-  <h3>How the design of cartel fines affects prices: Evidence from the lab</h3>
-  <p class="research-authors">With Sander Onderstal and Leonard Treuren &middot; <a href="{{ '/files/cartel-fines.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer">Latest version (PDF)</a></p>
+  <h3><a href="{{ '/files/cartel-fines.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer">How the design of cartel fines affects prices: Evidence from the lab</a></h3>
+  <p class="research-authors">With Sander Onderstal and Leonard Treuren.</p>
   <p class="research-status">Revise and resubmit, <em>Journal of Law and Economics</em>.</p>
   <details>
     <summary>Abstract</summary>
@@ -57,8 +57,8 @@ author_profile: true
 ## Book Chapter
 
 <article class="research-entry">
-  <h3>The Effect of Brexit on the UK Economy (So Far)</h3>
-  <p class="research-authors">With Gylfi Zoega &middot; <a href="https://doi.org/10.1007/978-3-030-46143-0_8" target="_blank" rel="noopener noreferrer">Published chapter</a> </p>
+  <h3><a href="https://doi.org/10.1007/978-3-030-46143-0_8" target="_blank" rel="noopener noreferrer">The Effect of Brexit on the UK Economy (So Far)</a></h3>
+  <p class="research-authors">With Gylfi Zoega.</p>
   <p class="research-status">In <em>Capitalism, Global Change and Sustainable Development</em>, edited by Luigi Paganetto (Springer, 2020), pp. 111–139. Proceedings of the 31st Villa Mondragone International Economic Seminar.</p>
   <details>
     <summary>Abstract</summary>
