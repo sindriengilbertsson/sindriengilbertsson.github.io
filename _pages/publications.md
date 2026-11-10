@@ -8,8 +8,8 @@ author_profile: true
 ## Working Papers
 
 <article class="research-entry">
-  <h3><a href="{{ '/files/cartel-fines.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer">How the design of cartel fines affects prices: Evidence from the lab</a></h3>
-  <p class="research-authors">With Sander Onderstal and Leonard Treuren.</p>
+  <h3>How the design of cartel fines affects prices: Evidence from the lab</h3>
+  <p class="research-authors">With Sander Onderstal and Leonard Treuren &middot; <a href="{{ '/files/cartel-fines.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer">Latest version (PDF)</a></p>
   <p class="research-status">Revise and resubmit, <em>Journal of Law and Economics</em>.</p>
   <details>
     <summary>Abstract</summary>
