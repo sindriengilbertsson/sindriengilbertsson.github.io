@@ -54,6 +54,18 @@ author_profile: true
   </details>
 </article>
 
+## Book Chapter
+
+<article class="research-entry">
+  <h3>The Effect of Brexit on the UK Economy (So Far)</h3>
+  <p class="research-authors">With Gylfi Zoega &middot; <a href="https://doi.org/10.1007/978-3-030-46143-0_8" target="_blank" rel="noopener noreferrer">Published chapter</a> &middot; <a href="https://eprints.bbk.ac.uk/id/eprint/29030/15/29030b.pdf" target="_blank" rel="noopener noreferrer">Working paper (PDF)</a></p>
+  <p class="research-status">In <em>Capitalism, Global Change and Sustainable Development</em>, edited by Luigi Paganetto (Springer, 2020), pp. 111–139. Proceedings of the 31st Villa Mondragone International Economic Seminar.</p>
+  <details>
+    <summary>Abstract</summary>
+    <p>We examine how the UK economy responded to political uncertainty in the years following the 2016 Brexit referendum. Employment reached a record high and output continued to grow, while investment and house-price growth showed signs of slowing. UK equities fell after the vote, but sterling showed the clearest response to subsequent political news, weakening when a hard Brexit became more likely. We expected a departure without an agreement to weaken sterling, lower share prices and reduce output. We expected a deal that preserved access to the Single Market to strengthen sterling and raise share prices, employment and output.</p>
+  </details>
+</article>
+
 ## Policy Contributions
 
 <article class="research-entry">
