@@ -39,6 +39,7 @@ exclude:
   - scripts
   - tests
   - preview
+  - "files/An_experimental_study_of_price_fixing_fines_[post_JLE_revision].pdf" # Published as files/cartel-fines.pdf
   - assets/js/_main.js
   - assets/js/plugins
   - assets/js/vendor
