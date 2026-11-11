@@ -1,8 +1,7 @@
 /* Personal site adjustments to the AcademicPages theme. */
-a:any-link { color: #000; text-decoration: underline; text-underline-offset: .15em; }
+a:any-link, a:any-link:hover { color: #666; text-decoration: none; }
 a:focus-visible, summary:focus-visible { outline: 2px solid #000; outline-offset: 4px; }
 .site-nav { display: flex; flex-wrap: wrap; align-items: center; gap: 1rem 2.5rem; }
-.site-nav [aria-current="page"] { text-underline-offset: .3em; }
 .site-name { font-weight: 700; }
 .site-nav ul { display: flex; flex-wrap: wrap; list-style: none; gap: 1.5rem; margin: 0; padding: 0; }
 .site-nav li { margin: 0; }
@@ -12,7 +11,8 @@ a:focus-visible, summary:focus-visible { outline: 2px solid #000; outline-offset
 .author__focus { margin: 0 0 1em; }
 .author__contact { overflow-wrap: anywhere; }
 .research-entry { margin: 0 0 1.75em; }
-.page__content .research-entry h3 { margin: 0 0 .45em; font-size: 1.08em; font-weight: 700; line-height: 1.45; color: inherit; }
+.page__content .research-entry h3 { margin: 0 0 .45em; font-size: 1.08em; font-weight: 700; line-height: 1.45; color: #5e5e5e; }
+.page__content .research-entry h3 > a:any-link { color: inherit; }
 .page__content .research-authors, .page__content .research-status { margin: 0 0 .35em; }
 .page__content .research-authors { font-size: .9em; font-weight: 400; }
 .research-status { font-size: .9em; }
