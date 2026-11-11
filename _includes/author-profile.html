@@ -6,6 +6,9 @@
     <h2 class="author__name" itemprop="name">{{ site.author.name }}</h2>
     <p class="author__bio">{{ site.author.bio }}</p>
     <p class="author__focus">{{ site.author.focus }}</p>
-    <p class="author__contact"><a href="mailto:{{ site.author.email }}" itemprop="email">{{ site.author.email }}</a></p>
+    <p class="author__contact">
+      <a href="mailto:{{ site.author.email }}" itemprop="email">{{ site.author.email }}</a><br>
+      <a href="{{ site.author.linkedin }}">LinkedIn</a>
+    </p>
   </div>
 </div>
